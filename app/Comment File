@@ -1,0 +1,11 @@
+2/4/20 Comments:
+activity_login.xml is the login screen
+activity_main_menu is the main menu. This main menu contains three tabs.
+medical_tab.xml = TAB 1
+lifestyle_tab.xml = TAB 2
+profile_tab.xml = TAB 3
+These tabs will contain lists of options the user can choose which will take them to a new screen.
+
+The first step I want to take is to create a plain screen with a button so that we can link each screen together.
+From there we can edit the UI and handle the data through the backend work. 
+
