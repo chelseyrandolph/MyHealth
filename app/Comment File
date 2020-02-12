@@ -8,4 +8,38 @@ These tabs will contain lists of options the user can choose which will take the
 
 The first step I want to take is to create a plain screen with a button so that we can link each screen together.
 From there we can edit the UI and handle the data through the backend work.
+-- Chelsey
+
+2/11/20 Comments:
+I made new directories to organize our Java files.
+    - medical
+        - activation
+        - clinic locator
+        - messenger
+        - patient chart
+        - test results
+    - lifestyle
+        - exercise log
+        - food/water log
+        - goal/note log
+        - weight log
+The log in screen goes to the main menu which is three tabbed activities.
+    - Medical
+    - Lifestyle
+    - Profile
+The header is missing, so I will be working on fixing that.
+Both of the medical/lifestyle tabs allow the user to click on each item.
+To Do:
+    Create "Return" buttons for each of the following layouts:
+        - activation
+        - clinic locator
+        - messenger
+        - patient chart
+        - test results
+        - exercise log
+        - food/water log
+        - goal/note log
+        - weight log
+You can mimic the activation button the medical tab.
+-- Chelsey
 

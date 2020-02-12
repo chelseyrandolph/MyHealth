@@ -115,10 +115,8 @@ public class LoginActivity extends AppCompatActivity {
                 loadingProgressBar.setVisibility(View.VISIBLE);
                 loginViewModel.login(usernameEditText.getText().toString(),
                         passwordEditText.getText().toString());
-                public void onClick(View vv) {
-                    Intent myIntent = new Intent(vv.getContext(), MainMenu.class);
-                    startActivityForResult(myIntent, 0);
-                }
+                Intent myIntent = new Intent(v.getContext(), MainMenu.class);
+                startActivityForResult(myIntent, 0);
             }
         });
     }
