@@ -30,7 +30,8 @@
                 android:id="@+id/tablayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:tabSelectedTextColor="#000">
+                app:tabSelectedTextColor="#000"
+                app:tabTextColor="#000">
 
                 <com.google.android.material.tabs.TabItem
                     android:layout_width="match_parent"
