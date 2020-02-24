@@ -16,5 +16,6 @@
     <string name="medical">Medical</string>
     <string name="lifestyle">lifestyle</string>
     <string name="profile">Profile</string>
+    <string name="female">Female</string>
 
 </resources>
