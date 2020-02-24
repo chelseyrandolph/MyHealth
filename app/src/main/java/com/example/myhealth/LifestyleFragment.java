@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 import com.example.myhealth.ui.lifestyle.ExerciseLogActivity;
@@ -54,15 +55,43 @@ public class LifestyleFragment extends Fragment {
      * @return A new instance of fragment LifestyleFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static LifestyleFragment newInstance(String param1, String param2) {
+    public static LifestyleFragment nutrientLog(String fluid, double volume, String food, double calories) {
         LifestyleFragment fragment = new LifestyleFragment();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
+        String s = Double.toString(volume);
+        String t = Double.toString(calories);
+        args.putString(fluid, s);
+        args.putString(food, t);
         fragment.setArguments(args);
         return fragment;
     }
-
+    public static LifestyleFragment exerciseLog(String movement, int sets, int reps) {
+        LifestyleFragment fragment = new LifestyleFragment();
+        Bundle args = new Bundle();
+        String c = Integer.toString(sets);
+        String v = Integer.toString(reps);
+        String a = c + v;
+        args.putString(a, movement);
+        fragment.setArguments(args);
+        return fragment;
+    }
+    public static LifestyleFragment weightLog(int weight) {
+        LifestyleFragment fragment = new LifestyleFragment();
+        Bundle args = new Bundle();
+        String i = Integer.toString(weight);
+        args.putString(i, " ");
+        fragment.setArguments(args);
+        return fragment;
+    }
+    public static LifestyleFragment goalLog(String goal, double date, String description) {
+        LifestyleFragment fragment = new LifestyleFragment();
+        Bundle args = new Bundle();
+        String c = Double.toString(date);
+        String a = c + description;
+        args.putString(goal, a);
+        fragment.setArguments(args);
+        return fragment;
+    }
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -146,7 +175,6 @@ public class LifestyleFragment extends Fragment {
         super.onDetach();
         mListener = null;
     }
-
     /**
      * This interface must be implemented by activities that contain this
      * fragment to allow an interaction in this fragment to be communicated
