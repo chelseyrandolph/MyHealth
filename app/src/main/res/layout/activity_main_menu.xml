@@ -7,18 +7,23 @@
     tools:context=".MainMenu">
 
 
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/toolbar"
-            app:title="@string/app_name"
             app:layout_scrollFlags="scroll|enterAlways"
-            />
+            app:title="@string/app_name" />
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbartab"
@@ -36,7 +41,7 @@
                 <com.google.android.material.tabs.TabItem
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Medical" />
+                    android:text="@string/medical" />
 
                 <com.google.android.material.tabs.TabItem
                     android:layout_width="match_parent"
@@ -52,11 +57,5 @@
         </androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
-
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/viewpager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

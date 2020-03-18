@@ -17,5 +17,7 @@
     <string name="lifestyle">lifestyle</string>
     <string name="profile">Profile</string>
     <string name="female">Female</string>
+    <string name="add_workout">Add Workout</string>
+    <string name="view_past_workouts">View Past Workouts</string>
 
 </resources>
