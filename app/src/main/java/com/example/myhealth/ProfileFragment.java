@@ -11,9 +11,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
+import android.widget.Button;
+
+import com.example.myhealth.ui.profile.ChangePassword;
 
 
 /**
@@ -73,6 +73,15 @@ public class ProfileFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_profile, container, false);
         setHasOptionsMenu(true);
 
+        Button changePassword = (Button) view.findViewById(R.id.p_passwordButton);
+        changePassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // sets the intent as the page you want to bring up when clicked
+                Intent myIntent = new Intent(v.getContext(), ChangePassword.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
         return view;
     }
 

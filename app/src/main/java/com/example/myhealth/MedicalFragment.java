@@ -78,7 +78,7 @@ public class MedicalFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_medical, container, false);
-        String[] options = {"Medical Chart", "Test Results", "Messenger", "Clinic Locator"};
+        String[] options = {"Medical Chart", "Test Results", "Messenger", "Clinic Locator", "Appointments"};
 
         ListView listView = (ListView) view.findViewById(R.id.medicalMenuItems);
 
@@ -107,6 +107,10 @@ public class MedicalFragment extends Fragment {
                     case 3:
                         Intent intent4 = new Intent(view.getContext(), ClinicLocatorActivity.class);
                         startActivity(intent4);
+                        break;
+                    case 4:
+                        Intent intent5 = new Intent(view.getContext(), AppointmentsActivity.class);
+                        startActivity(intent5);
                         break;
                 }
             }

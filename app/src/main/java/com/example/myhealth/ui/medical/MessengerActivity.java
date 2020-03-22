@@ -10,7 +10,7 @@ import android.widget.Button;
 import com.example.myhealth.R;
 
 public class MessengerActivity extends AppCompatActivity {
-    Button button;
+    Button button, messengerButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,8 +20,17 @@ public class MessengerActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               Intent intent = new Intent(v.getContext(), messengerUI.class);
+               Intent intent = new Intent(v.getContext(), MessengerUI.class);
                startActivity(intent);
+            }
+        });
+
+        messengerButton = findViewById(R.id.inboxButton);
+        messengerButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), InboxScreen.class);
+                startActivity(intent);
             }
         });
     }

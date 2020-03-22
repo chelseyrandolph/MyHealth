@@ -8,39 +8,18 @@
     android:outlineProvider="none"
     tools:context=".ui.medical.PatientChartActivity">
 
-    <EditText
-        android:id="@+id/patientName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="24dp"
-        android:autofillHints=""
-        android:background="#009688"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Jane L. Doe"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#FAF7F7"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="404dp"
         android:layout_height="521dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         android:divider="@android:drawable/divider_horizontal_bright"
         android:dividerPadding="@dimen/list_padding"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/patientName">
+        app:layout_constraintStart_toStartOf="parent">
 
         <TextView
             android:id="@+id/gender"
@@ -99,5 +78,21 @@
             android:text="Insurance Provider: \n\t Blue Cross Blue Shield\n\t 304-123-4566" />
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="412dp"
+        android:layout_height="66dp"
+        android:background="#69CEC3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Jane Doe"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

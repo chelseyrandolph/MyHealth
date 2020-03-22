@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.medical.messengerUI"></activity>
+        <activity android:name=".AppointmentsActivity"></activity>
+        <activity android:name=".ui.profile.ChangePassword" />
+        <activity android:name=".ui.medical.InboxScreen" />
+        <activity android:name=".ui.medical.MessengerUI" />
         <activity android:name=".ui.medical.ActivationActivity" />
         <activity android:name=".ui.lifestyle.GoalNoteLogActivity" />
         <activity android:name=".ui.lifestyle.WeightLogActivity" />

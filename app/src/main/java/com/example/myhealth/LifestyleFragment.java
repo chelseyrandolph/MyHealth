@@ -104,7 +104,7 @@ public class LifestyleFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragment_medical, container, false);
-        String[] options = {"Food/Water Log", "Exercise Log", "Weight Log", "Goal/Note Log"};
+        String[] options = {"Food/Water Log", "Exercise Log", "Weight Log", "Goal Log"};
 
         ListView listView = (ListView) view.findViewById(R.id.medicalMenuItems);
 
