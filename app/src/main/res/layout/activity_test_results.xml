@@ -6,4 +6,60 @@
     android:layout_height="match_parent"
     tools:context=".ui.medical.TestResultsActivity">
 
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="404dp"
+        android:layout_height="521dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:divider="@android:drawable/divider_horizontal_bright"
+        android:dividerPadding="@dimen/list_padding"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/test1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/basic_metabolic_panel"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/test1date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:singleLine="false"
+            android:text="@string/_10_12_2019" />
+
+        <TextView
+            android:id="@+id/test1Doc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/kate_l_smith_md" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="#69CEC3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="@string/my_test_results"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

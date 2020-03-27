@@ -4,4 +4,83 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.medical.ClinicLocatorActivity"/>
+    tools:context=".ui.medical.ClinicLocatorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Clinic Locator "
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="#69CEC3"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="@string/clinic_locator"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/subheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/clinics_near_current_location_26501" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="326dp"
+            app:srcCompat="@drawable/map"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/list_of_clinics_near_you" />
+
+        <TextView
+            android:id="@+id/clinic1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/wvu_medicine_student_health" />
+
+        <TextView
+            android:id="@+id/clinic2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/wvu_medicine_pain_management_center" />
+
+        <TextView
+            android:id="@+id/clinic3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/women_s_healthcare_of_morgantown" />
+
+        <TextView
+            android:id="@+id/clinic4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/family_vision_office" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
