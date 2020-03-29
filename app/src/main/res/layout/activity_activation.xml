@@ -6,4 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".ui.medical.ActivationActivity">
 
+    <EditText
+        android:id="@+id/dobFld"
+        android:layout_width="214dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="88dp"
+        android:selectAllOnFocus="true"
+        android:text="mm/dd/yyyy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/activateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activate"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="472dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <EditText
+        android:id="@+id/ssnFld"
+        android:layout_width="214dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="220dp"
+        android:selectAllOnFocus="true"
+        android:text="S.S.N."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
