@@ -12,7 +12,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/Clinic Locator "
+            android:id="@+id/ClinicLocator"
             android:layout_width="match_parent"
             android:layout_height="66dp"
             android:background="#69CEC3"
