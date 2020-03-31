@@ -17,14 +17,13 @@
     <string name="lifestyle">lifestyle</string>
     <string name="profile">Profile</string>
     <string name="female">Female</string>
-    <string name="add_workout">Add Workout</string>
     <string name="view_past_workouts">View Past Workouts</string>
     <string name="clinic_locator">Clinic Locator</string>
     <string name="clinic_near_current_location">Clinic near current location</string>
     <string name="jane_doe">Jane Doe</string>
     <string name="know_allergies_n_t_amoxicillin_n_t_penicillin">Know Allergies: \t Amoxicillin \t Penicillin</string>
     <string name="primary_pharmacy_n_t_cvs_pine_view_drive">Primary Pharmacy: \t CVS Pine View Drive</string>
-    <string name="insurance_provider_n_t_blue_cross_blue_shield_n_t_304_123_4566">Insurance Provider:  \t Blue Cross Blue Shield \t 304-123-4566</string>
+    <string name="insurance_provider_n_t_blue_cross_blue_shield_n_t_304_123_4566">Insurance Provider:  \t Blue Cross Blue Shield \t 304–123-4566</string>
     <string name="test_results">Test Results</string>
     <string name="_20_y_o">20 y.o</string>
     <string name="_09_29_1999">09/29/1999</string>
@@ -41,5 +40,9 @@
     <string name="basic_metabolic_panel">Basic Metabolic Panel</string>
     <string name="_10_12_2019">10/12/2019</string>
     <string name="kate_l_smith_md">Kate L Smith, MD</string>
+    <string name="add_goal">Add Goal</string>
+    <string name="add_workout">Add Workout</string>
+    <string name="add_new_weight">Add New Weight</string>
+    <string name="save">Save</string>
 
 </resources>

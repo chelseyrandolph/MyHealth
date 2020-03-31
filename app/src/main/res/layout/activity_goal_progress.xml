@@ -4,34 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.medical.MessengerActivity">
+    tools:context=".ui.lifestyle.GoalProgress">
 
-    <Button
-        android:id="@+id/inboxButton"
+
+    <TextView
+        android:id="@+id/CT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="162dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginBottom="519dp"
-        android:text="Inbox"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="692dp"
+        android:text="Goals"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/newMessageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="145dp"
-        android:layout_marginTop="38dp"
-        android:layout_marginEnd="145dp"
-        android:layout_marginBottom="433dp"
-        android:text="New Message"
+    <TextView
+        android:id="@+id/progression"
+        android:layout_width="384dp"
+        android:layout_height="326dp"
+        android:text="10/13/2019:     Lose 20lbs by the new year!\n\n 11/12/2019:     Lose 30lbs by January 15th."
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inboxButton" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
 </androidx.constraintlayout.widget.ConstraintLayout>

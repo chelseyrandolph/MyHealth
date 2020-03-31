@@ -103,10 +103,10 @@ public class LifestyleFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_medical, container, false);
+        View view = inflater.inflate(R.layout.fragment_lifestyle, container, false);
         String[] options = {"Food/Water Log", "Exercise Log", "Weight Log", "Goal Log"};
 
-        ListView listView = (ListView) view.findViewById(R.id.medicalMenuItems);
+        ListView listView = view.findViewById(R.id.lifestyleMenuItems);
 
         ArrayAdapter<String> listViewAdapter = new ArrayAdapter<String>(
                 getActivity(),

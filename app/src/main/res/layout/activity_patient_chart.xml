@@ -19,7 +19,10 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.804">
 
         <TextView
             android:id="@+id/gender"
@@ -27,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
             android:layout_marginTop="10dp"
-            android:text="@string/female" />
+            android:text="Female" />
 
         <TextView
             android:id="@+id/age"
@@ -35,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
             android:layout_marginTop="10dp"
-            android:text="@string/_20_y_o" />
+            android:text="20 y.o" />
 
         <TextView
             android:id="@+id/DOB"
@@ -43,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
             android:layout_marginTop="10dp"
-            android:text="@string/_09_29_1999" />
+            android:text="09/29/1999" />
 
         <TextView
             android:id="@+id/height"
@@ -51,10 +54,10 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
             android:layout_marginTop="10dp"
-            android:text="@string/_5_6_quot" />
+            android:text="5' 6&quot;" />
 
         <TextView
-            android:id="@+id/test1"
+            android:id="@+id/knownAllergies"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -62,7 +65,7 @@
             android:text="Know Allergies:\n\t Amoxicillin\n\t Penicillin" />
 
         <TextView
-            android:id="@+id/test1date"
+            android:id="@+id/primaryPharmacy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -70,7 +73,7 @@
             android:text="Primary Pharmacy:\n\t CVS Pine View Drive" />
 
         <TextView
-            android:id="@+id/test1Doc"
+            android:id="@+id/insuranceInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
@@ -80,7 +83,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/patientName"
+        android:id="@+id/textView2"
         android:layout_width="412dp"
         android:layout_height="66dp"
         android:background="#69CEC3"
