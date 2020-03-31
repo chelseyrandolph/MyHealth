@@ -14,7 +14,7 @@ import com.example.myhealth.R;
 import com.example.myhealth.LifestyleFragment;
 
 public class AddGoal extends AppCompatActivity {
-    TextView newGoal;
+    EditText newGoal;
     Button saveButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
