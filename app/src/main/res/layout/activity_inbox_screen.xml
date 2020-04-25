@@ -10,7 +10,7 @@
         android:id="@+id/inbox"
         android:layout_width="412dp"
         android:layout_height="35dp"
-        android:background="#4EAF9F"
+        android:background="#6691D1"
         android:gravity="center_vertical"
         android:text="  Inbox"
         android:textColor="#000000"

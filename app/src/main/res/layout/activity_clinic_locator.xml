@@ -14,7 +14,7 @@
             android:id="@+id/ClinicLocator"
             android:layout_width="match_parent"
             android:layout_height="66dp"
-            android:background="#69CEC3"
+            android:background="#6691D1"
             android:gravity="center|center_horizontal|center_vertical"
             android:text="@string/clinic_locator"
             android:textColor="#FFFFFF"

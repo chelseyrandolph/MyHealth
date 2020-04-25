@@ -22,12 +22,11 @@
         android:id="@+id/activateBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#01579B"
         android:text="Activate"
-        tools:layout_editor_absoluteX="282dp"
-        tools:layout_editor_absoluteY="472dp"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_bias="0.2" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
         android:id="@+id/ssnFld"

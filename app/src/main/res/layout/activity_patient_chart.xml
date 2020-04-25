@@ -86,7 +86,7 @@
         android:id="@+id/textView2"
         android:layout_width="412dp"
         android:layout_height="66dp"
-        android:background="#69CEC3"
+        android:background="#6691D1"
         android:gravity="center|center_horizontal|center_vertical"
         android:text="Jane Doe"
         android:textColor="#FFFFFF"
